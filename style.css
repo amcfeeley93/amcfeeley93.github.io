@@ -1,3 +1,16 @@
 * {
-  background-color: blue;
+  background-color: white;
+}
+
+body {
+text-align: center;
+}
+
+body {
+    background-image: url("http://www.presidiacreative.com/wp-content/uploads/2013/11/whitebackgrounds/prism.jpg");
+    background-color: #cccccc;
+}
+
+h1 {
+  font-family:Arial;
 }
