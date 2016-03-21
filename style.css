@@ -6,11 +6,38 @@ body {
 text-align: center;
 }
 
-body {
-    background-image: url("http://www.presidiacreative.com/wp-content/uploads/2013/11/whitebackgrounds/prism.jpg");
-    background-color: #cccccc;
-}
 
 h1 {
   font-family:Arial;
+  position: relative;
 }
+
+#logo {
+  position: relative;
+  top: 160px;
+  left:-10px;
+}
+
+#h1 {
+  position: relative;
+  top: 25px;
+  left:25px;
+}
+
+.primary-nav {
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden; /* [1] */
+}
+
+        .primary-nav a {
+            padding: 1em;
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .primary-nav a:hover {
+            background-color: black;
+        }
